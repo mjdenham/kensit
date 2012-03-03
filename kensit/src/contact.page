@@ -1,0 +1,20 @@
+---
+title: Contact Us
+in_menu: false
+---
+You can write to us at:
+
+Kensit Evangelical Church  
+104 Hendon Lane  
+Finchley  
+London N3 3SQ  
+
+or email [The Church Secretary][email_secretary]
+
+Comments regarding the website should be sent to the [webmaster][email_webmaster].
+
+[email_secretary]: mailto:secretary@kensit.org.uk
+[email_webmaster]: mailto:webmaster@kensit.org.uk
+
+--- name:picture
+<img src="images/contact.jpg" alt="Contact Us" name="Contact Us" width="150" height="150"/> 
