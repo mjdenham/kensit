@@ -1,0 +1,269 @@
+/* andreas08 - an open source xhtml/css website layout by Andreas Viklund - http://andreasviklund.com . Free to use in any way and for any purpose as long as the proper credits are given to the original designer. Version: 1.0, November 28, 2005 */
+
+/**************** Body and tag styles ****************/
+
+*{margin:0; padding:0;}
+
+html{
+background-color:#e8eaec;
+}
+
+
+body{
+font-family: Verdana,Tahoma,Arial,sans-serif;
+line-height:1.4em;
+text-align:center;
+color:#303030;
+background:#e8eaec;
+}
+
+a{
+color:#467aa7;
+font-weight:bold;
+text-decoration:none;
+background-color:inherit;
+}
+
+a:hover{color:#2a5a8a; text-decoration:none; background-color:inherit;}
+a img{border:none;}
+
+p{padding:0 0 1.6em 0;}
+p form{margin-top:0; margin-bottom:20px;}
+
+img.left,img.center,img.right{padding:4px; border:1px solid #a0a0a0;}
+img.left{float:left; margin:0 12px 5px 0;}
+img.center{display:block; margin:0 auto 5px auto;}
+img.right{float:right; margin:0 0 5px 12px; vertical-align: top}
+
+.rightPicture { vertical-align: top;}
+
+/**************** Header and navigation styles ****************/
+
+#doc {
+margin:20px auto;
+padding:1px 0;
+text-align:left;
+background:#ffffff;
+color:#303030;
+border:2px solid #a0a0a0;
+}
+
+#header{
+height:100px;
+width:100%;
+margin:0 1px 1px 1px;
+background:#467aa7;
+color:#ffffff;
+}
+
+#header h1{
+padding:35px 0 0 20px;
+font-size:240%;
+background-color:inherit;
+color:#ffffff;
+letter-spacing:-2px;
+font-weight:normal;
+}
+
+#header h2{
+margin:10px 0 0 40px;
+font-size:138.5%;
+background-color:inherit;
+color:#f0f2f4;
+letter-spacing:-1px;
+font-weight:normal;
+}
+
+#header a {
+text-decoration:none;
+color: #ffffff;
+}
+
+#navigation{
+height:2.2em;
+line-height:2.2em;
+width:100%;
+margin:0 1px;
+background:#578bb8;
+color:#ffffff;
+}
+
+#navigation li{
+float:left;
+list-style-type:none;
+border-right:1px solid #ffffff;
+white-space:nowrap;
+}
+
+#navigation li a, #navigation li span {
+display:block;
+padding:0 10px;
+font-size:100%;
+font-weight:normal;
+text-transform:lowercase;
+text-decoration:none;
+background-color:inherit;
+color: #ffffff;
+}
+
+* html #navigation a {width:1%;}
+
+#navigation .webgen-menu-item-selected a, #navigation .webgen-menu-item-selected span, #navigation a:hover {
+background:#80b0da;
+color:#ffffff;
+text-decoration:none;
+}
+
+/**************** Content styles ****************/
+
+#bd {
+font-size:100%;
+padding:20px 20px 20px 20px;
+}
+
+#bd h2,#bd h3{
+display:block;
+margin:0 0 1em 0;
+letter-spacing:-1px;
+color:#404040;
+background-color:inherit;
+font-weight:normal;
+}
+
+#bd h2{font-size:161.6%;}
+#bd h3{font-size:131%;}
+
+#bd h2 a{font-weight:normal;}
+#bd a:hover,#subcontent a:hover{text-decoration:underline;}
+#bd ul,#bd ol{margin:0 5px 16px 35px;}
+#bd dl{margin:0 5px 10px 25px;}
+#bd dt{font-weight:bold; margin-bottom:5px;}
+#bd dd{margin:0 0 10px 15px;}
+
+/** rsstore styles after reset **/
+#bd strong {
+	/* Bringing bold back to the strong element. */
+	font-weight: bold;
+}
+#bd em {
+	/* Bringing italics back to the em element. */
+	font-style: italic;
+}
+#bd del {
+	/* Striking deleted phrases. */
+	text-decoration: line-through;
+}
+
+#bd blockquote,#bd ul,#bd ol,#bd dl {
+	/* Giving blockquotes and lists room to breath. */
+	margin: 1em;
+}
+#bd ol,#bd ul,#bd dl {
+	/* Bringing lists on to the page with breathing room. */
+	margin-left: 2em;
+}
+#bd ol li {
+	/* Giving OL's LIs generated numbers. */
+	list-style: decimal outside;
+}
+#bd ul li {
+	/* Giving UL's LIs generated disc markers. */
+	list-style: disc outside;
+}
+#bd dl dd {
+	/* Giving UL's LIs generated numbers. */
+	margin-left: 1em;
+}
+
+/**************** Sidebar styles ****************/
+
+#subcontent{
+float:right;
+padding:20px 0 10px 0;
+line-height:1.4em;
+}
+
+#subcontent h2{
+display:block;
+margin:0 0 15px 0;
+font-size:153.9%;
+font-weight:normal;
+text-align:left;
+letter-spacing:-1px;
+color:#404040;
+background-color:inherit;
+}
+
+#subcontent p{margin:0 0 16px 0; font-size:85%;}
+
+/**************** Menublock styles ****************/
+
+#subcontent #submenu ul, .linkblock {margin:0 0 20px 8px; font-size:85%;}
+#subcontent #submenu ul li, .linkblock li {list-style:none; display:block; padding:2px; margin-bottom:2px;}
+#subcontent #submenu ul li a, .linkblock li a {font-weight:bold; text-decoration:none;}
+#subcontent #submenu ul li a:hover, .linkblock li a:hover {text-decoration:none;}
+#subcontent #submenu ul li ul, .linkblock li ul {margin:3px 0 3px 15px; font-size:100%; font-weight:normal;}
+#subcontent #submenu ul li ul li, .linkblock li ul li {margin-bottom:0;}
+#subcontent #submenu ul li ul a, .linkblock li ul a {font-weight:normal;}
+
+/**************** Searchbar styles ****************/
+
+#searchbar{margin:0 0 20px 0;}
+#searchbar form fieldset{margin-left:10px; border:0 solid;}
+
+#searchbar #s{
+height:1.2em;
+width:110px;
+margin:0 5px 0 0;
+border:1px solid #a0a0a0;
+}
+
+#searchbar #searchbutton{
+width:auto;
+padding:0 1px;
+border:1px solid #808080;
+font-size:85%;
+text-align:center;
+}
+
+/**************** Footer styles ****************/
+
+#ft{
+padding:5px 0;
+margin:0 1px;
+font-size:85%;
+color:#f0f0f0;
+background:#467aa7;
+}
+
+#ft p{padding:0; margin:0; text-align:center;}
+#ft a{color:#f0f0f0; background-color:inherit; font-weight:bold;}
+#ft a:hover{color:#ffffff; background-color:inherit; text-decoration: underline;}
+
+/**************** Misc classes and styles ****************/
+
+.splitcontentleft{float:left; width:48%;}
+.splitcontentright{float:right; width:48%;}
+.clear{clear:both;}
+.small{font-size:0.8em;}
+.hide{display:none;}
+.textcenter{text-align:center;}
+.textright{text-align:right;}
+.important{color:#f02025; background-color:inherit; font-weight:bold;}
+
+.box{
+margin:0 0 0 5px;
+padding:10px;
+border:1px solid #c0c0c0;
+background-color:#fafbfc;
+color:#505050;
+line-height:1.5em;
+}
+
+.kensit-table  td{
+padding:5px;
+padding-bottom:10px;
+vertical-align:top;
+}
+
+

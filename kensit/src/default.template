@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="Kensit Evangelical Church" />
+	<meta name="keywords" content="Evangelical, Church, Finchley, London, Gospel, Bible, Jesus, Christ, Christian, Christianity, Andrew Davies" />
+	<meta name="generator" content="webgen - http://webgen.rubyforge.org" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="CACHE-CONTROL" content="NO-CACHE" />
+	<meta http-equiv="EXPIRES" content="Fri, 11 Dec 2009 12:00:00 GMT" />
+	<title>{title:}</title>
+	<link rel="stylesheet" href="http://yui.yahooapis.com/2.7.0/build/reset-fonts-grids/reset-fonts-grids.css" type="text/css" />
+ 	<link rel="stylesheet" href="{relocatable: default.css}" type="text/css" media="screen,projection" />
+ 	<webgen:block name="header" notfound="ignore"/>
+</head>
+<body>
+
+<div id="doc" class="yui-t7">
+	<div id="hd" role="banner">
+   		<div id="header">
+			<h1><a href="{relocatable: /index.html}">Kensit</a></h1>
+			<h2>Evangelical Church Finchley</h2>
+		</div>
+
+		<div id="navigation">
+			{menu: {max_levels: 1, used_nodes: files}}
+		</div>
+	</div>
+	<div id="bd" role="main">
+		<div class="yui-g">
+			<h2>{title:}</h2>
+			<table width="100%">
+				<tr>
+					<td width="100%">
+						<webgen:block name="content" />
+					</td>
+					<td class="rightPicture">
+						<% if context.node.node_info[:page].blocks.has_key?('picture') %>
+							<div class="small box right"><webgen:block name="picture" /></div>
+						<% end %>
+					</td>
+				</tr>
+			</table>
+		</div>
+	</div>
+
+   <div id="ft" role="contentinfo">
+		<p>&copy; 2012 <a href="index.html">Kensit Evangelical Church</a> | <a href="contact.html">Contact us</a> | <a href="location.html">Where to find us?</a> </p>
+   </div>
+</div>
+
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-6078884-1");
+pageTracker._trackPageview();
+} catch(err) {}</script>
+</body>
+</html>
+
